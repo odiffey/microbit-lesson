@@ -13,6 +13,6 @@ while True:
             sleep(500)
             display.clear()
         elif button_b.is_pressed():
-            display.show(str(3*5))
+            display.show("Text2")
             sleep(500)
             display.clear()
