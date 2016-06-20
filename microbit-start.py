@@ -10,5 +10,9 @@ while True:
         display.show(Image.HEART)
         if button_a.is_pressed():
             display.show("Text")
+            sleep(500)
+            display.clear()
         elif button_b.is_pressed():
             display.show(str(3*5))
+            sleep(500)
+            display.clear()
