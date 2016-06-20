@@ -19,13 +19,13 @@ while True:
         if button_a.is_pressed():
             votea = votea + 1 # Adds 1 vote to the votea variable
             display.show(str(votea)) # This converts the variable votea into a string and shows it on the micro:bit display
-            sleep(100)
+            sleep(500)
             display.clear()
         # The eflif statement below activates when the B button is pressed, it is is detected by a function within the micro:bit packages
         elif button_b.is_pressed():
             voteb = voteb + 1 # Adds 1 vote to the voteb variable
             display.show(str(voteb)) # This converts the variable voteb into a string and shows it on the micro:bit display
-            sleep(100)
+            sleep(500)
             display.clear()
         # The elif statement below activates when the device is shaken, it is detected by an accelerometer and functions within the micro:bit packages
         elif accelerometer.was_gesture("shake"):
